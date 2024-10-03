@@ -2,12 +2,7 @@ aura_env.general = {
     {id = "awakened_cache", name = "Awakening the Machine", quests = {84642, 84644, 84646, 84647, 83333}, completedOn = 5, info = "4 Caches & Quest"},
     {id = "azj_kahet_meta_quest", name = "Azj-Kahet Meta Quest", quests = {80670, 80671, 80672}, coords = "55224120"},
     {id = "dungeon_quest", name = "Dungeon Quest", quests = {83443, 83457, 83458, 83459, 83465, 83469, 83432}, coords = "46604820", info = "Biergoth"},
-    {id = "worldsoul_meta_quest", name = "Emissary Meta Quest", quests = {82452, 82482, 82495, 82511, 82678, 82516, 82483, 82453, 82489,
-                                                                           82659, 82490, 82491, 82492, 82493, 82494, 82496, 82497, 82498,
-                                                                           82499, 82500, 82501, 82502, 82503, 82504, 82505, 82506, 82507,
-                                                                           82508, 82509, 82510, 82511, 82512, 82488, 82487, 82486, 82485,
-                                                                           82708, 82679, 82706
-    }, coords = "46004940", info = "Worldsoul / Archives / Delves"},
+    {id = "worldsoul_meta_quest", name = "Emissary Meta Quest", quests = {82706}, coords = "46004940", info = "Worldsoul / Archives / Delves"},
     {id = "rollin_down_in_the_deeps", name = "Rollin' Down in the Deeps", quests = {82946}},
     {id = "spreading_the_light", name = "Spreading the Light", quests = {76586}},
     {id = "the_theater_troupe", name = "The Theater Troupe", quests = {83240}},
