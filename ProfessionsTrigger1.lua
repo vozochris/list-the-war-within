@@ -24,12 +24,12 @@ function(_, event)
         skillLevel2 = skillLevel
     end
 
-    local function addLines(entries, name)
+    local function AddLines(entries, name)
         WeakAuras.ScanEvents("VOZ_ADD_LINES", entries, name, order)
         order = order + 0.01
     end
 
-    local function hasRenown(renown)
+    local function HasRenown(renown)
         if not renown then
             return true
         end
@@ -40,8 +40,9 @@ function(_, event)
 
     local showCompleted = aura_env.config["show_completed"]
     local showOnlyCurrentZone = aura_env.config["show_only_current_zone"]
+    local showCatchup = aura_env.config["show_catchup"]
     local bestMapForPlayer = showOnlyCurrentZone and C_Map.GetBestMapForUnit("player") or 0
-    local function addZone(entries, name)
+    local function AddZone(entries, name)
         for _, entry in pairs(entries) do
             local zoneIds = entry.zoneIds
             local inAnyZone = not zoneIds
@@ -54,32 +55,33 @@ function(_, event)
                 end
             end
             local eventCheck = not entry.event or aura_env["event_" .. entry.event]
-            entry.filtered = not (inAnyZone and showAnyZone) or not hasRenown(entry.renown) or not eventCheck
+            local catchupCheck = not entry.currency or showCatchup
+            entry.filtered = not (inAnyZone and showAnyZone) or not HasRenown(entry.renown) or not eventCheck or not catchupCheck
             entry.showCompleted = showCompleted
         end
-        addLines(entries, name)
+        AddLines(entries, name)
     end
 
-    local function addProfession(entries, skillLine, name)
+    local function AddProfession(entries, skillLine, name)
         local requiredSkill = 1
         if skillLine1 == skillLine and skillLevel1 >= requiredSkill or skillLine2 == skillLine and skillLevel2 >= requiredSkill then
-            addZone(entries, name)
+            AddZone(entries, name)
         end
     end
 
-    addProfession(aura_env.inscription, 773, "Inscription")
-    addProfession(aura_env.mining, 186, "Mining")
-    addProfession(aura_env.herbalism, 182, "Herbalism")
-    addProfession(aura_env.alchemy, 171, "Alchemy")
-    addProfession(aura_env.blacksmithing, 164, "Blacksmithing")
-    addProfession(aura_env.enchanting, 333, "Enchanting")
-    addProfession(aura_env.engineering, 202, "Engineering")
-    addProfession(aura_env.jewelcrafting, 755, "Jewelcrafting")
-    addProfession(aura_env.leatherworking, 165, "Leatherworking")
-    addProfession(aura_env.skinning, 393, "Skinning")
-    addProfession(aura_env.tailoring, 197, "Tailoring")
+    AddProfession(aura_env.inscription, 773, "Inscription")
+    AddProfession(aura_env.mining, 186, "Mining")
+    AddProfession(aura_env.herbalism, 182, "Herbalism")
+    AddProfession(aura_env.alchemy, 171, "Alchemy")
+    AddProfession(aura_env.blacksmithing, 164, "Blacksmithing")
+    AddProfession(aura_env.enchanting, 333, "Enchanting")
+    AddProfession(aura_env.engineering, 202, "Engineering")
+    AddProfession(aura_env.jewelcrafting, 755, "Jewelcrafting")
+    AddProfession(aura_env.leatherworking, 165, "Leatherworking")
+    AddProfession(aura_env.skinning, 393, "Skinning")
+    AddProfession(aura_env.tailoring, 197, "Tailoring")
 
     if aura_env.event_hallowfallFishing and fishing and aura_env.config["show_fishing"] then
-        addZone(aura_env.fishing, "Fishing")
+        AddZone(aura_env.fishing, "Fishing")
     end
 end

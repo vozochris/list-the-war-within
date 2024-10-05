@@ -6,7 +6,7 @@ function(_, event)
 
     local aura_env = aura_env
     local C_Map = C_Map
-    local function addLines(entries, name)
+    local function AddLines(entries, name)
         WeakAuras.ScanEvents("VOZ_ADD_LINES", entries, name, order)
         order = order + 0.01
     end
@@ -16,7 +16,7 @@ function(_, event)
     local warbandMode = aura_env.config["warband_mode"]
     local showCompleted = aura_env.config["show_completed"]
     local bestMapForPlayer = showOnlyCurrentZone and C_Map.GetBestMapForUnit("player") or 0
-    local function addZone(entries, delveZoneId)
+    local function AddZone(entries, delveZoneId)
         for _, entry in pairs(entries) do
             entry.filtered = bestMapForPlayer ~= delveZoneId
             if entry.filtered and not showOnlyInsideDelve then
@@ -37,15 +37,15 @@ function(_, event)
             entry.showCompleted = showCompleted
         end
         local name = C_Map.GetMapInfo(delveZoneId).name
-        addLines(entries, ("Delve: %s"):format(name))
+        AddLines(entries, ("Delve: %s"):format(name))
     end
 
 
     for delveZoneId, delve in pairs(aura_env.delves) do
-        addZone(delve, delveZoneId)
+        AddZone(delve, delveZoneId)
     end
 
     if aura_env.config["show_general_delves"] then
-        addLines(aura_env.general_delves, "General - Delves")
+        AddLines(aura_env.general_delves, "General - Delves")
     end
 end

@@ -6,7 +6,7 @@ function(_, event)
 
     local aura_env = aura_env
     local C_Map = C_Map
-    local function addLines(entries, name)
+    local function AddLines(entries, name)
         WeakAuras.ScanEvents("VOZ_ADD_LINES", entries, name, order)
         order = order + 0.01
     end
@@ -15,7 +15,7 @@ function(_, event)
     local showCompleted = aura_env.config["show_completed"]
     local showOnlyCurrentZone = aura_env.config["show_only_current_zone"]
     local bestMapForPlayer = showOnlyCurrentZone and C_Map.GetBestMapForUnit("player") or 0
-    local function addZone(entries, zoneIds)
+    local function AddZone(entries, zoneIds)
         local inAnyZone = false
         local showAnyZone = false
         for _, zoneId in pairs(zoneIds) do
@@ -38,14 +38,14 @@ function(_, event)
                 end
 
                 local name = C_Map.GetMapInfo(zoneId).name
-                addLines(entries, name .. " Treasures")
+                AddLines(entries, name .. " Treasures")
                 break
             end
         end
     end
 
-    addZone(aura_env.azjKahet, {2255, 2256, 2213, 2216})
-    addZone(aura_env.isleOfDorn, {2248})
-    addZone(aura_env.ringingDeeps, {2214})
-    addZone(aura_env.hallowfall, {2215})
+    AddZone(aura_env.azjKahet, {2255, 2256, 2213, 2216})
+    AddZone(aura_env.isleOfDorn, {2248})
+    AddZone(aura_env.ringingDeeps, {2214})
+    AddZone(aura_env.hallowfall, {2215})
 end

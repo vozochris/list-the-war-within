@@ -18,6 +18,7 @@ aura_env.alchemy = {
     {name = "Reinforced Beaker", quests = {83842}, zoneIds = { 2214 }, coords = "42212415"},
     {name = "Sanctified Mortar and Pestle", quests = {83845}, zoneIds = { 2215 }, coords = "41665584"},
     {name = "Theories of Bodily Transmutation, Chapter 8", quests = {82633}, zoneIds = { 2255, 2213 }},
+    {name = "Flicker of Alchemy Knowledge", currency = 3057, zoneIds = { 2339 }, requiredQuests = {83253, 83255, 84133}, info = "Catch-up / Patron Orders"},
 }
 
 aura_env.blacksmithing = {
@@ -39,6 +40,7 @@ aura_env.blacksmithing = {
     {name = "Ringing Hammer Vise", quests = {83850}, zoneIds = { 2214 }, coords = "47703316"},
     {name = "Smithing After Saronite", quests = {82631}, zoneIds = { 2255, 2213 }},
     {name = "Spiderling's Wire Brush", quests = {83855}, zoneIds = { 2255 }, coords = "52965126"},
+    {name = "Flicker of Blacksmithing Knowledge", currency = 3058, zoneIds = { 2339 }, requiredQuests = {83256, 83257, 84127}, info = "Catch-up / Patron Orders"},
 }
 
 aura_env.enchanting = {
@@ -62,6 +64,7 @@ aura_env.enchanting = {
     {name = "Soot-Coated Orb", quests = {83860}, zoneIds = { 2214 }, coords = "44612213"},
     {name = "Void Shard", quests = {83865}, zoneIds = { 2255 }, coords = "57354404"},
     {name = "Web Sparkles: Pretty and Powerful", quests = {82635}, zoneIds = { 2339 }},
+    {name = "Shimmering Dust", currency = 3059, zoneIds = { 2339 }, requiredQuests = {83258, 83259, 84084, 84290, 84295}, info = "Catch-up / Disenchanting"},
 }
 
 aura_env.engineering = {
@@ -83,6 +86,7 @@ aura_env.engineering = {
     {name = "Puppeted Mechanical Spider", quests = {83872}, zoneIds = { 2255 }, coords = "56853859"},
     {name = "Rock Engineer's Wrench", quests = {83866}, zoneIds = { 2248 }, coords = "61356957"},
     {name = "Rust-Locked Mechanism", quests = {83260}},
+    {name = "Flicker of Engineering Knowledge", currency = 3060, zoneIds = { 2339 }, requiredQuests = {83260, 83261, 84128}, info = "Catch-up / Patron Orders"},
 }
 
 aura_env.herbalism = {
@@ -104,6 +108,7 @@ aura_env.herbalism = {
     {name = "Tunneler's Shovel", quests = {83881}, zoneIds = { 2255, 2213 }, coords = "46771612"},
     {name = "Void-Lit Herbalism Notes", quests = {83066}, zoneIds = { 2215 }, renown = { id = 2570, level = 14}},
     {name = "Web-Entangled Lotus", quests = {83880}, zoneIds = { 2255, 2213 }, coords = "54602088"},
+    {name = "Deepgrove Roots", currency = 3061, requiredQuests = {81416, 81421, 82970}, info = "Catch-up"},
 }
 
 aura_env.inscription = {
@@ -125,6 +130,7 @@ aura_env.inscription = {
     {name = "Striated Inkstone", quests = {83264}},
     {name = "Venomancer's Ink Well", quests = {83889}, zoneIds = { 2255, 2213 }, coords = "50233085"},
     {name = "Wax-Sealed Records", quests = {83262}},
+    {name = "Flicker of Inscription Knowledge", currency = 3062, zoneIds = { 2339 }, requiredQuests = {83262, 83264, 84129}, info = "Catch-up / Patron Orders"},
 }
 
 aura_env.jewelcrafting = {
@@ -146,6 +152,7 @@ aura_env.jewelcrafting = {
     {name = "Pristine Jeweler's Illustrations", quests = {81261}, zoneIds = { 2339 }},
     {name = "Ritual Caster's Crystal", quests = {83896}, zoneIds = { 2255, 2213 }, coords = "47831954"},
     {name = "Void-Lit Jewelcrafting Notes", quests = {83065}, zoneIds = { 2215 }, renown = { id = 2570, level = 14}},
+    {name = "Flicker of Jewelcrafting Knowledge", currency = 3063, zoneIds = { 2339 }, requiredQuests = {83265, 83266, 84130}, info = "Catch-up / Patron Orders"},
 }
 
 aura_env.leatherworking = {
@@ -167,6 +174,7 @@ aura_env.leatherworking = {
     {name = "Underground Stropping Compound", quests = {83900}, zoneIds = { 2214 }, coords = "47053489"},
     {name = "Uses for Leftover Husks (After You Take Them Apart)", quests = {82626}, zoneIds = { 2255, 2213 }},
     {name = "Void-Lit Leatherworking Notes", quests = {83068}, zoneIds = { 2215 }, renown = { id = 2570, level = 14}},
+    {name = "Flicker of Leatherworking Knowledge", currency = 3064, zoneIds = { 2339 }, requiredQuests = {83267, 83268, 84131}, info = "Catch-up / Patron Orders"},
 }
 
 aura_env.mining = {
@@ -188,6 +196,7 @@ aura_env.mining = {
     {name = "Pristine Miner's Notes", quests = {81392}, zoneIds = { 2339 }},
     {name = "Regenerating Ore", quests = {83909}, zoneIds = { 2214 }, coords = "66266624"},
     {name = "Slab of Slate", quests = {83050, 83051, 83052, 83053, 83054}, completedOn = 5},
+    {name = "Null Sliver", currency = 3065, requiredQuests = {83049, 83050, 83104}, info = "Catch-up"},
 }
 
 aura_env.skinning = {
@@ -209,6 +218,7 @@ aura_env.skinning = {
     {name = "Toughened Tempest Pelt", quests = {81459, 81460, 81461, 81462, 81463}, completedOn = 5},
     {name = "Uses for Leftover Husks (How to Take Them Apart)", quests = {82596}, zoneIds = { 2255, 2213 }},
     {name = "Void-Lit Skinning Notes", quests = {83067}, zoneIds = { 2215 }, renown = { id = 2570, level = 14}},
+    {name = "Razor Talon", currency = 3066, requiredQuests = {81464, 81459, 83097}, info = "Catch-up"},
 }
 
 aura_env.tailoring = {
@@ -230,6 +240,7 @@ aura_env.tailoring = {
     {name = "Royal Outfitter's Protractor", quests = {83927}, zoneIds = { 2215 }, coords = "40096813"},
     {name = "Runed Earthen Pins", quests = {83924}, zoneIds = { 2214 }, coords = "48823286"},
     {name = "Spool of Webweave", quests = {83269}},
+    {name = "Flicker of Tailoring Knowledge", currency = 3067, zoneIds = { 2339 }, requiredQuests = {83269, 83270, 84132}, info = "Catch-up / Patron Orders"},
 }
 
 aura_env.fishing = {
@@ -239,8 +250,8 @@ aura_env.fishing = {
 local tonumber = tonumber
 local date = date
 local weekDay = tonumber(date("%w"))
-local monthDay = tonumber(date("%d"))
-local daysSinceFirstSunday = monthDay - ((monthDay - (weekDay + 1)) % 7) + 1
+local monthDay = tonumber(date("%e"))
+local daysSinceFirstSunday = monthDay - (((monthDay - (weekDay + 1)) % 7) + 1)
 
-aura_env.event_479 = daysSinceFirstSunday >= 0 and daysSinceFirstSunday <= 7
+aura_env.event_479 = daysSinceFirstSunday >= 0 and daysSinceFirstSunday <= 6
 aura_env.event_hallowfallFishing = weekDay == 6

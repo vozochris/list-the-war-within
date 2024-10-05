@@ -1,5 +1,6 @@
 local aura_env = aura_env
 local C_QuestLog = C_QuestLog
+local C_CurrencyInfo = C_CurrencyInfo
 
 aura_env.requestedRefreshes = 0
 aura_env.vignettes = {}
@@ -49,23 +50,39 @@ local function AddLines(entries, category, states, startingIndex)
                 end
             end
         end
+
+        if not filtered and entry.requiredQuests then
+            for _, requiredQuest in pairs(entry.requiredQuests) do
+                if not C_QuestLog.IsQuestFlaggedCompleted(requiredQuest) then
+                    filtered = true
+                    break
+                end
+            end
+        end
         
         if not filtered then
             local quests = reputationMode and entry.repQuests or entry.quests
-            for _, quest in pairs(quests) do
-                questsCount = questsCount + 1
-                if C_QuestLog.IsQuestFlaggedCompleted(quest) then
-                    cCharacterOnly = cCharacterOnly + 1
-                    if not warbandMode then
-                        c = c + 1
+            if quests then
+                for _, quest in pairs(quests) do
+                    questsCount = questsCount + 1
+                    if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+                        cCharacterOnly = cCharacterOnly + 1
+                        if not warbandMode then
+                            c = c + 1
+                        end
+                    end
+                    if C_QuestLog.IsQuestFlaggedCompletedOnAccount(quest) then
+                        cWarbandOnly = cWarbandOnly + 1
+                        if warbandMode then
+                            c = c + 1
+                        end
                     end
                 end
-                if C_QuestLog.IsQuestFlaggedCompletedOnAccount(quest) then
-                    cWarbandOnly = cWarbandOnly + 1
-                    if warbandMode then
-                        c = c + 1
-                    end
-                end
+            elseif entry.currency then
+                local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(entry.currency)
+                completedOn = currencyInfo.maxQuantity
+                questsCount = completedOn
+                c = currencyInfo.quantity
             end
         end
 
@@ -88,7 +105,7 @@ local function AddLines(entries, category, states, startingIndex)
                 end
             end
 
-            if entry.completedOn then
+            if completedOn > 1 then
                 append = append .. ": " .. (completedOn - c)
             end
 
