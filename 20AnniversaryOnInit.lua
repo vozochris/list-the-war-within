@@ -5,8 +5,11 @@ aura_env.tanaris = {
     {name = "Celebrate Good Fun!", quests = {84616}},
     {name = "Doomwalkin' Has Come Knockin'", quests = {60215}},
     {name = "Chromie's Codex", quests = {82783}},
-    {name = "An Original Path Through Time", quests = {83274}},
+    {name = "An Original Path Through Time", quests = {83274, 85947}},
     {name = "Disturbance Detected: Blackrock Depths", quests = {82817}},
+    {name = "Tat Big Meanie", quests = {84144}},
+    {name = "Tweasure Hunt", quests = {84363}},
+    {name = "Thoughtful Pursuits", quests = {84521}},
 }
 
 aura_env.tww = {
