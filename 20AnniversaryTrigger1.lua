@@ -18,6 +18,7 @@ function(_, event)
 
     FixEntries(aura_env.tanaris)
     FixEntries(aura_env.tww)
+    FixEntries(aura_env.celebration_crates)
     FixEntries(aura_env.pvp)
 
     if aura_env.config["show_tanaris"] then
@@ -26,6 +27,10 @@ function(_, event)
     if aura_env.config["show_tww"] then
         order = order + 0.01
         WeakAuras.ScanEvents("VOZ_ADD_LINES", aura_env.tww, "The War Within - Anniversary", order)
+    end
+    if aura_env.config["show_celebration_crates"] then
+        order = order + 0.01
+        WeakAuras.ScanEvents("VOZ_ADD_LINES", aura_env.celebration_crates, "Celebration Crates - Anniversary", order)
     end
     if aura_env.config["show_pvp"] then
         order = order + 0.01

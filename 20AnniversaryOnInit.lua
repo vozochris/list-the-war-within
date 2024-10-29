@@ -23,6 +23,11 @@ aura_env.tww = {
     {id = "queen_ansurek", name = "Queen Ansurek", quests = {84597, 84276}},
 }
 
+aura_env.celebration_crates = {
+    {name = "Soggy Celebration Crate", quests = {83794}, info = "Zuldazar, underwater, buy a Clam Digger from Nikto and click on Gerald above", coords = "54205420"},
+    {name = "Hazy Celebration Crate", quests = {85574}, info = "Desolace, be a ghost/dead to see it", coords = "54005810"},
+}
+
 aura_env.pvp = {
     {name = "Soldier of Time", quests = {57300}},
     {name = "Sparks of War: Hallowfall", quests = {81795}},
