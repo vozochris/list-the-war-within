@@ -35,4 +35,5 @@ aura_env.pvp = {
     {name = "Soldier of Time", quests = {57300}},
     {name = "Something Different", quests = {47148}},
     {name = "Sparks of War", quests = {81793, 81794, 81795, 81796}},
+    {name = "The Arena Calls", quests = {83358}},
 }
