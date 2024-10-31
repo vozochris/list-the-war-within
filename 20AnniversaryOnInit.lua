@@ -7,6 +7,7 @@ aura_env.tanaris = {
     {name = "Shopping Squee!", quests = {84489}},
     {name = "Tat Big Meanie", quests = {84144}},
     {name = "The \"Great\" Detective", quests = {84237}},
+    {name = "The Trail's Gone Cold", quests = {84296}},
     {name = "Thoughtful Pursuits", quests = {84521}},
     {name = "Truth of the Dark Irons", quests = {84735}},
     {name = "Tweasure Hunt", quests = {84363}},
