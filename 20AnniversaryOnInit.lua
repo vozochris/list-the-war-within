@@ -27,6 +27,8 @@ aura_env.tww = {
 
 aura_env.celebration_crates = {
     {name = "Hazy Celebration Crate", quests = {85574}, info = "Desolace, be a ghost/dead to see it", coords = "54005810"},
+    {name = "Dirt-Caked Celebration Crate", quests = {84470}, info = "Deadwind Pass, 39.8 73.4 entrance", coords = "22708370"},
+    {name = "Sandy Celebration Crate", quests = {84624}, info = "Vashti in Azsuna patrolling vendor, grab Water-Resistant Receipt from Thousand Needles at 64.8 84.0", coords = "47008900"},
     {name = "Soggy Celebration Crate", quests = {83794}, info = "Zuldazar, underwater, buy a Clam Digger from Nikto and click on Gerald above", coords = "54205420"},
 }
 
