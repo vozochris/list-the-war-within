@@ -5,6 +5,7 @@ aura_env.tanaris = {
     {name = "Deck Dismay", quests = {84882}},
     {name = "Disturbance Detected: Blackrock Depths", quests = {82817}},
     {name = "Meet and Greet", quests = {84254}},
+    {name = "Restoring A Grand Tale", quests = {83825}},
     {name = "Shopping Squee!", quests = {84489}},
     {name = "Spot the Difference", quests = {84336}},
     {name = "Tat Big Meanie", quests = {84144}},
@@ -18,7 +19,7 @@ aura_env.tanaris = {
 
 aura_env.tww = {
     {id = "azj_kahet_meta_quest", name = "Azj-Kahet Meta Quest", quests = {80670, 80671, 80672}},
-    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82452, 82482, 82496, 82512}},
+    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82679}},
     {id = "gearing_up_for_trouble", name = "Gearing Up for Trouble", quests = {83333}},
     {id = "queen_ansurek", name = "Queen Ansurek", quests = {84597, 84276}},
     {id = "rollin_down_in_the_deeps", name = "Rollin' Down in the Deeps", quests = {82946}},
