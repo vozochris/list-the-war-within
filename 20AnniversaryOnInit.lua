@@ -5,10 +5,12 @@ aura_env.tanaris = {
     {name = "Deck Dismay", quests = {84882}},
     {name = "Disturbance Detected: Blackrock Depths", quests = {82817}},
     {name = "Meet and Greet", quests = {84254}},
+    {name = "Operation Toy Rescue", quests = {84588}},
     {name = "Restoring A Grand Tale", quests = {83825}},
     {name = "Shopping Squee!", quests = {84489}},
     {name = "Spot the Difference", quests = {84336}},
     {name = "Tat Big Meanie", quests = {84144}},
+    {name = "The Case of the Fur-Getting Wikket", quests = {84595}},
     {name = "The \"Great\" Detective", quests = {84237}},
     {name = "The Trail's Gone Cold", quests = {84296}},
     {name = "Thoughtful Pursuits", quests = {84521}},
@@ -35,6 +37,7 @@ aura_env.celebration_crates = {
     {name = "Hazy Celebration Crate", quests = {85574}, info = "Desolace, be a ghost/dead to see it", coords = "54005810"},
     {name = "Sandy Celebration Crate", quests = {84624}, info = "Vashti in Azsuna patrolling vendor, grab Water-Resistant Receipt from Thousand Needles at 64.8 84.0", coords = "47008900"},
     {name = "Soggy Celebration Crate", quests = {83794}, info = "Zuldazar, underwater, buy a Clam Digger from Nikto and click on Gerald above", coords = "54205420"},
+    {name = "Waterlogged Celebration Crate", quests = {84426}, info = "Tanaris", coords = "69176860"},
 }
 
 aura_env.pvp = {
