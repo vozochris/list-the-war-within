@@ -4,16 +4,18 @@ aura_env.tanaris = {
     {name = "Chromie's Codex", quests = {82783}},
     {name = "Deck Dismay", quests = {84882}},
     {name = "Disturbance Detected: Blackrock Depths", quests = {82817}},
+    {name = "From Ashes to Wisdom", quests = {84933}},
     {name = "Meet and Greet", quests = {84254}},
+    {name = "Nola's Last Wish", quests = {84435}},
     {name = "Operation Toy Rescue", quests = {84588}},
     {name = "Restoring A Grand Tale", quests = {83825}},
     {name = "Shopping Squee!", quests = {84489}},
     {name = "Spot the Difference", quests = {84336}},
     {name = "Tat Big Meanie", quests = {84144}},
     {name = "The Case of the Fur-Getting Wikket", quests = {84595}},
-    {name = "The \"Great\" Detective", quests = {84237}},
     {name = "The Toy Thief", quests = {84756}},
     {name = "The Trail's Gone Cold", quests = {84296}},
+    {name = "The \"Great\" Detective", quests = {84237}},
     {name = "Thoughtful Pursuits", quests = {84521}},
     {name = "Truth of the Dark Irons", quests = {84735}},
     {name = "Tweasure Hunt", quests = {84363}},
@@ -22,7 +24,8 @@ aura_env.tanaris = {
 
 aura_env.tww = {
     {id = "azj_kahet_meta_quest", name = "Azj-Kahet Meta Quest", quests = {80670, 80671, 80672}},
-    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82679}},
+    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82710}},
+    {id = "event_weekly", name = "Event Weekly", quests = {83366}},
     {id = "gearing_up_for_trouble", name = "Gearing Up for Trouble", quests = {83333}},
     {id = "queen_ansurek", name = "Queen Ansurek", quests = {84597, 84276}},
     {id = "rollin_down_in_the_deeps", name = "Rollin' Down in the Deeps", quests = {82946}},
@@ -34,6 +37,7 @@ aura_env.tww = {
 
 aura_env.celebration_crates = {
     {name = "Battered Celebration Crate", quests = {83931}, info = "Howling Fjord", coords = "29400636"},
+    {name = "Charred Celebration Crate", quests = {84767}, info = "Mount Hyjal", coords = "13613350"},
     {name = "Dirt-Caked Celebration Crate", quests = {84470}, info = "Deadwind Pass, 39.8 73.4 entrance", coords = "22708370"},
     {name = "Hazy Celebration Crate", quests = {85574}, info = "Desolace, be a ghost/dead to see it", coords = "54005810"},
     {name = "Sandy Celebration Crate", quests = {84624}, info = "Vashti in Azsuna patrolling vendor, grab Water-Resistant Receipt from Thousand Needles at 64.8 84.0", coords = "47008900"},
