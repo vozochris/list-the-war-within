@@ -1,11 +1,13 @@
 aura_env.tanaris = {
     {name = "A Bird's Tail", quests = {84924}},
     {name = "An Original Path Through Time", quests = {83274, 85947}},
+    {name = "Battle Pet Bingo", quests = {84469}},
     {name = "Celebrate Good Fun!", quests = {84616}},
     {name = "Chromie's Codex", quests = {82783}},
     {name = "Deck Dismay", quests = {84882}},
     {name = "Disturbance Detected: Blackrock Depths", quests = {82817}},
     {name = "From Ashes to Wisdom", quests = {84933}},
+    {name = "Lost and... Found?", quests = {85477}},
     {name = "Meet and Greet", quests = {84254}},
     {name = "Nola's Last Wish", quests = {84435}},
     {name = "Operation Toy Rescue", quests = {84588}},
