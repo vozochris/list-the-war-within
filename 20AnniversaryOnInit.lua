@@ -18,6 +18,7 @@ aura_env.tanaris = {
     {name = "Spot the Difference", quests = {84336}},
     {name = "Tat Big Meanie", quests = {84144}},
     {name = "The Case of the Fur-Getting Wikket", quests = {84595}},
+    {name = "The Show Must Go On", quests = {84912}},
     {name = "The Toy Thief", quests = {84756}},
     {name = "The Trail's Gone Cold", quests = {84296}},
     {name = "The \"Great\" Detective", quests = {84237}},
@@ -29,8 +30,8 @@ aura_env.tanaris = {
 
 aura_env.tww = {
     {id = "azj_kahet_meta_quest", name = "Azj-Kahet Meta Quest", quests = {80670, 80671, 80672}},
-    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82710}},
-    {id = "event_weekly", name = "Event Weekly", quests = {83366}},
+    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82452, 82483, 82494, 82511}},
+    {id = "event_weekly", name = "Event Weekly", quests = {83366, 83345}},
     {id = "gearing_up_for_trouble", name = "Gearing Up for Trouble", quests = {83333}},
     {id = "queen_ansurek", name = "Queen Ansurek", quests = {84597, 84276}},
     {id = "rollin_down_in_the_deeps", name = "Rollin' Down in the Deeps", quests = {82946}},
@@ -46,8 +47,10 @@ aura_env.celebration_crates = {
     {name = "Crystalized Celebration Crate", quests = {84773}, info = "Nagrand (Outland), inside Oshu'gun", coords = "35277473"},
     {name = "Dirt-Caked Celebration Crate", quests = {84470}, info = "Deadwind Pass, 39.8 73.4 entrance", coords = "22708370"},
     {name = "Hazy Celebration Crate", quests = {85574}, info = "Desolace, be a ghost/dead to see it", coords = "54005810"},
+    {name = "Mildewed Celebration Crate", quests = {85523}, info = "Feralas", coords = "60403540"},
     {name = "Sandy Celebration Crate", quests = {84624}, info = "Vashti in Azsuna patrolling vendor, grab Water-Resistant Receipt from Thousand Needles at 64.8 84.0", coords = "47008900"},
     {name = "Soggy Celebration Crate", quests = {83794}, info = "Zuldazar, underwater, buy a Clam Digger from Nikto and click on Gerald above", coords = "54205420"},
+    {name = "Surprisingly Pristine Celebration Crate", quests = {84625}, info = "Ahn'Qiraj & Stormheim"},
     {name = "Waterlogged Celebration Crate", quests = {84426}, info = "Tanaris", coords = "69176860"},
 }
 
