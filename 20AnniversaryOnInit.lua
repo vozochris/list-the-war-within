@@ -1,7 +1,9 @@
 aura_env.tanaris = {
     {name = "A Bird's Tail", quests = {84924}},
+    {name = "A Surprising Investigation", quests = {85503}},
     {name = "An Original Path Through Time", quests = {83274, 85947}},
     {name = "Battle Pet Bingo", quests = {84469}},
+    {name = "Buried Tweasure", quests = {85476}},
     {name = "Celebrate Good Fun!", quests = {84616}},
     {name = "Chromie's Codex", quests = {82783}},
     {name = "Deck Dismay", quests = {84882}},
@@ -46,6 +48,7 @@ aura_env.celebration_crates = {
     {name = "Charred Celebration Crate", quests = {84767}, info = "Mount Hyjal", coords = "13613350"},
     {name = "Crystalized Celebration Crate", quests = {84773}, info = "Nagrand (Outland), inside Oshu'gun", coords = "35277473"},
     {name = "Dirt-Caked Celebration Crate", quests = {84470}, info = "Deadwind Pass, 39.8 73.4 entrance", coords = "22708370"},
+    {name = "Ghostly Celebration Crate", quests = {84909}, info = "Maldraxxus", coords = "49997381"},
     {name = "Hazy Celebration Crate", quests = {85574}, info = "Desolace, be a ghost/dead to see it", coords = "54005810"},
     {name = "Mildewed Celebration Crate", quests = {85523}, info = "Feralas", coords = "60403540"},
     {name = "Sandy Celebration Crate", quests = {84624}, info = "Vashti in Azsuna patrolling vendor, grab Water-Resistant Receipt from Thousand Needles at 64.8 84.0", coords = "47008900"},
