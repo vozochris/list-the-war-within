@@ -42,7 +42,6 @@ aura_env.ringingDeeps = {
 aura_env.hallowfall = {
     {name = "Arathi Loremaster", quests = {83298, 83309, 83310, 83311, 83312, 83313, 83314}, completedOn = 7, rep = 150, coords = "40035112"},
     {name = "Caesper", quests = {83263}, rep = 150, coords = "41795827"},
-    {name = "Coral-Fused Clam", quests = {80687}, coords = "63990612"},
     {name = "Dark Ritual", quests = {83284}, rep = 150, coords = "59525966"},
     {name = "Illuminated Footlocker", quests = {81468}, rep = 150, coords = "58382715"},
     {name = "Illusive Kobyss Lure", quests = {83299}, rep = 150, coords = "47611854"},
