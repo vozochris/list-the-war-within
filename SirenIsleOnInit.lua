@@ -1,10 +1,12 @@
 aura_env.siren_isle = {
     {name = "A Ritual of Runes", quests = {84248}},
+    {name = "Eggstinction", quests = {84225}},
     {name = "Historical Documents", quests = {83932}},
     {name = "Longship Landing", quests = {84432}},
     {name = "Peak Precision", quests = {84252}},
     {name = "Rock 'n Stone Revival", quests = {84680}},
     {name = "Secure the Perimeter", quests = {84222}},
+    {name = "Shoreline Stand", quests = {84241}},
 }
 
 aura_env.siren_isle_rares = {
@@ -37,8 +39,8 @@ aura_env.siren_isle_treasures = {
     {name = "Mouldy Sea Ledger", quests = {}, coords = "39785249"},
     {name = "Rune-Seared Spear", quests = {}, coords = "57937837"},
     {name = "Scholars of the Sea: Siren Isle Synopsis", quests = {}, coords = "39095103"},
-    {name = "Stone Carver's Scramseax", quests = {}, coords = "26502340"},
-    {name = "Unsolved Amethyst Runelock", quests = {}, coords = "67557351"},
+    {name = "Stone Carver's Scramseax", quests = {85859}, coords = "26502340"},
+    {name = "Unsolved Amethyst Runelock", quests = {86171}, coords = "67557351"},
 }
 
 aura_env.siren_isle_forgotten_vault = {
