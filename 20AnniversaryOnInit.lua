@@ -32,8 +32,8 @@ aura_env.tanaris = {
 
 aura_env.tww = {
     {id = "azj_kahet_meta_quest", name = "Azj-Kahet Meta Quest", quests = {80670, 80671, 80672}},
-    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82452, 82516, 82493, 82512}},
-    {id = "event_weekly", name = "Event Weekly", quests = {83366, 83345, 83365, 84776, 83347}},
+    {id = "dornogal_meta_quest", name = "Dornogal Meta Quest", quests = {82679}},
+    {id = "event_weekly", name = "Event Weekly", quests = {83366, 83345, 83365, 84776, 83347, 83359}},
     {id = "gearing_up_for_trouble", name = "Gearing Up for Trouble", quests = {83333}},
     {id = "queen_ansurek", name = "Queen Ansurek", quests = {84597, 84276}},
     {id = "rollin_down_in_the_deeps", name = "Rollin' Down in the Deeps", quests = {82946}},
