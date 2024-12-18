@@ -18,6 +18,7 @@ function(_, event)
 
     FixEntries(aura_env.siren_isle)
     FixEntries(aura_env.siren_isle_rares)
+    FixEntries(aura_env.siren_isle_treasures)
     FixEntries(aura_env.siren_isle_forgotten_vault)
 
     if aura_env.config["show_siren_isle"] then
@@ -27,6 +28,11 @@ function(_, event)
     if aura_env.config["show_siren_isle_rares"] then
         order = order + 0.01
         WeakAuras.ScanEvents("VOZ_ADD_LINES", aura_env.siren_isle_rares, "Siren Isle Rares", order)
+    end
+
+    if aura_env.config["show_siren_isle_treasures"] then
+        order = order + 0.01
+        WeakAuras.ScanEvents("VOZ_ADD_LINES", aura_env.siren_isle_treasures, "Siren Isle Treasures", order)
     end
 
     if aura_env.config["show_siren_isle_forgotten_vault"] then
