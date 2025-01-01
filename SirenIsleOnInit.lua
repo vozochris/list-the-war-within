@@ -18,7 +18,7 @@ aura_env.siren_isle_rares = {
     {name = "Ghostmaker", quests = {84801}, coords = "53283383"},
     {name = "Gravesludge", quests = {85669}, coords = "57726612"},
     {name = "Grimgull", quests = {84796}, coords = "34151392"},
-    {name = "Ikir the Flotsurge", quests = {84792}, coords = "32457405"},-- 84792 OR 84839
+    {name = "Ikir the Flotsurge", quests = {84792}, coords = "32457405"},
     {name = "Nerathor", quests = {85672}, coords = "26206546"},
     {name = "Plank-Master Bluebelly", quests = {84799}, coords = "60698921"},
     {name = "Siris the Sea Scorpion", quests = {84803}, coords = "56068410"},
