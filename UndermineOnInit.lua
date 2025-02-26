@@ -1,3 +1,10 @@
+aura_env.undermine = {
+    {name = "Delves: Site of Madness", quests = {87582}, coords = "43405140"},
+    {name = "Delves: The Sluice Contains the Juice", quests = {87583}, coords = "43405140"},
+    {name = "Operation: Floodgate: Disposing of the Garbage", quests = {86728}, coords = "43405140"},
+    {name = "Weekly", quests = {85869, 86775, 85879}, coords = "43605080"},
+}
+
 aura_env.undermine_rares = {
     {name = "Candy Stickemup", quests = {84927}, coords = "42227735"},
     {name = "Chief Foreman Gutso", quests = {84907}, coords = "58488643"},

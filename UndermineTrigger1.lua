@@ -16,10 +16,16 @@ function(_, event)
         end
     end
     
+    FixEntries(aura_env.undermine)
     FixEntries(aura_env.undermine_rares)
     FixEntries(aura_env.undermine_treasures)
 
+    if aura_env.config["show_undermine"] then
+        WeakAuras.ScanEvents("VOZ_ADD_LINES", aura_env.undermine, "Undermine", order)
+    end
+
     if aura_env.config["show_undermine_rares"] then
+        order = order + 0.01
         WeakAuras.ScanEvents("VOZ_ADD_LINES", aura_env.undermine_rares, "Undermine Rares", order)
     end
 
