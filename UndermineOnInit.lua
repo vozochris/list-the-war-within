@@ -1,7 +1,10 @@
 aura_env.undermine = {
+    {name = "Contract Work", quests = {84948}, coords = "42805200"},
     {name = "Delves: Site of Madness", quests = {87582}, coords = "43405140"},
     {name = "Delves: The Sluice Contains the Juice", quests = {87583}, coords = "43405140"},
     {name = "Operation: Floodgate: Disposing of the Garbage", quests = {86728}, coords = "43405140"},
+    {name = "Special Assignment: Boom! Headshot!", quests = {85487}, requiredQuests = {85489}},
+    {name = "Special Assignment: Security Detail", quests = {85488}, requiredQuests = {85490}},
     {name = "Weekly", quests = {85869, 86775, 85879}, coords = "43605080"},
 }
 
