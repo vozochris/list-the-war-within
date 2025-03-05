@@ -12,6 +12,7 @@ aura_env.undermine = {
     {name = "Special Assignment: Boom! Headshot!", quests = {85487}, requiredQuests = {85489}},
     {name = "Special Assignment: Security Detail", quests = {85488}, requiredQuests = {85490}},
     {name = "Urge to Surge", quests = {86775}, coords = "43605080"},
+    {name = "World Boss", quests = {85088}}, -- 85089, 89401?
 }
 
 aura_env.undermine_rares = {
