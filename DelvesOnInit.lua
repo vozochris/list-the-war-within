@@ -8,6 +8,23 @@ aura_env.general_delves = {
     {name = "Restored Coffer Key", quests = {84736, 84737, 84738, 84739}, completedOn = 4},
 }
 
+aura_env.bountiful_delves = {
+    {name = "Isle of Dorn: Fungal Folly", quests = {82939}, zoneIds = {2248}, poi = 7779},
+    {name = "Isle of Dorn: Kriegval's Rest", quests = {82941}, zoneIds = {2248}, poi = 7781},
+    {name = "Isle of Dorn: Earthcrawl Mines", quests = {82944}, zoneIds = {2248}, poi = 7787},
+    {name = "The Ringing Deeps: The Waterworks", quests = {82945}, zoneIds = {2214}, poi = 7782},
+    {name = "The Ringing Deeps: The Dread Pit", quests = {82938}, zoneIds = {2214}, poi = 7788},
+    {name = "The Ringing Deeps: Excavation Site 9", quests = {85187}, zoneIds = {2214}, poi = 8181},
+    {name = "Hallowfall: Mycomancer Cavern", quests = {82940}, zoneIds = {2215}, poi = 7780},
+    {name = "Hallowfall: The Sinkhole", quests = {82937}, zoneIds = {2215}, poi = 7783},
+    {name = "Hallowfall: Nightfall Sanctum", quests = {82777}, zoneIds = {2215}, poi = 7785},
+    {name = "Hallowfall: Skittering Breach", quests = {78508}, zoneIds = {2215}, poi = 7789},
+    {name = "Azj-Kahet: Tak-Rethan Abyss", quests = {82776}, zoneIds = {2255}, poi = 7784},
+    {name = "Azj-Kahet: The Underkeep", quests = {82943}, zoneIds = {2255}, poi = 7786},
+    {name = "Azj-Kahet: The Spiral Weave", quests = {82942}, zoneIds = {2255}, poi = 7790},
+    {name = "Undermine: Sidestreet Sluice", quests = {85668}, zoneIds = {2346}, poi = 8246},
+}
+
 aura_env.delves = {}
 
 aura_env.delves[2250] = {
