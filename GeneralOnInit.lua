@@ -4,7 +4,7 @@ aura_env.general = {
     {id = "azj_kahet_meta_quest", name = "Azj-Kahet Meta Quest", quests = {80670, 80671, 80672}, coords = "55224120"},
     {id = "delvers_bounty", name = "Delver's Bounty", quests = {86371}},
     {id = "delves_meta_quest", name = "Delves Meta Quest", quests = {82746, 82707, 82710, 82711, 82708, 82709, 82712, 82706}, coords = "47394443"},
-    {id = "dungeon_quest", name = "Dungeon Quest", quests = {83443, 83457, 83458, 83459, 83465, 83469, 83432, 83436}, coords = "46604820", info = "Biergoth"},
+    {id = "dungeon_quest", name = "Dungeon Quest", quests = {83443, 83457, 83458, 83459, 83465, 83469, 83432, 83436, 86203}, coords = "46604820", info = "Biergoth"},
     {id = "rollin_down_in_the_deeps", name = "Rollin' Down in the Deeps", quests = {82946}},
     {id = "spreading_the_light", name = "Spreading the Light", quests = {76586}},
     {id = "the_theater_troupe", name = "The Theater Troupe", quests = {83240}},
